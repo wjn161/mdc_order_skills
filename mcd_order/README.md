@@ -148,8 +148,15 @@ git clone https://github.com/wjn161/mdc_order_skills ~/.openclaw/skills/mcd_orde
 
 | 依赖 | 说明 |
 |------|------|
-| `python3` | 运行辅助脚本（标准库，无需额外安装包） |
+| `python3` | 运行辅助脚本 |
+| `qrcode[pil]` | 生成支付二维码图片（PNG） |
 | `MCD_MCP_TOKEN` | 麦当劳开放平台 API Token |
+
+安装 Python 依赖：
+
+```bash
+pip3 install "qrcode[pil]"
+```
 
 ---
 
