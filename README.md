@@ -45,10 +45,10 @@ git clone https://github.com/wjn161/mdc_order_skills ~/.openclaw/skills/mcd_orde
 
 ### 第一步：获取 MCD_MCP_TOKEN
 
-1. 访问 [open.mcd.cn](https://open.mcd.cn) 并登录麦当劳账户
-2. 进入「开发者控制台」→「我的应用」
-3. 创建或选择已有应用，进入「API 密钥」页面
-4. 点击「激活」，复制生成的 Token
+1. 访问 [https://open.mcd.cn/mcp/login](https://open.mcd.cn/mcp/login) 并登录麦当劳账户
+2. 登录成功后跳转回首页，“登录”按钮变成控制台
+3. 点击右上角“控制台”后，会弹出控制台弹窗
+4. 点击激活按钮，申请 MCP Token
 
 ### 第二步：配置 openclaw.json
 
